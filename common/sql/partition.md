@@ -50,6 +50,8 @@
 
 **查询分区**
 
+语法
+
     SELECT *FROM table_name WHERE partition_spec
 
 示例

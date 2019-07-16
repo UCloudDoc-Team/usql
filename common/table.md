@@ -20,15 +20,17 @@
 
 在查询框中输入DDL语句，创建数据表： 
 
-<code> 
-CREATE \[EXTERNAL\] TABLE \[IF NOT EXISTS\]
-\[db\_name.\]table\_name \[(col\_name data\_type \[COMMENT
-col\_comment\] \[, ...\] )\] PARTATION BY\[col\_name data\_type\] \[ROW
-FORMAT row\_format\] \[STORED AS file\_format\] \[LOCATION 'UFile'\]
-\[TBLPROPERTIES ( \['has\_encrypted\_data'='true | false',\]
-\['classification'='aws\_glue\_classification',\]
-property\_name=property\_value \[, ...\] ) \] 
-    \</code>
+
+```  
+CREATE [EXTERNAL] TABLE [IF NOT EXISTS]
+[db_name.]table_name [(col_name data_type [COMMENT col_comment] [, ...] )] 
+PARTATION BY [col_name data_type] 
+[ROW FORMAT row_format] 
+[STORED AS file_format] 
+[LOCATION 'UFile:']
+[TBLPROPERTIES ( ['has_encrypted_data'='true | false',]
+['classification'='aws_glue_classification',] property_name=property_value [, ...] ) ] 
+```
 
 ## 查看数据表
 
@@ -36,23 +38,24 @@ USQL目前支持两种预览数据表的方式： 使用向导查看或通过SQL
 
 **方式一：使用向导查看数据表**
 
-1、点击数据表右边的按钮，选择‘预览数据表’。 ![](/analysis/usql/预览数据表.png) 2、点击‘立即运行’。
+1\. 点击数据表右边的按钮，选择‘预览数据表’。 ![](/analysis/usql/预览数据表.png) 
+2\. 点击‘立即运行’。
 
 **方式二：使用DDL查看数据表**
 
-1、在查询框中输入
+1\. 在查询框中输入
 
     SELECT * FROM table_name(表名称)
 
 ## 删除数据表
 
-\*\* 方式一：使用向导删除数据表 \*\*
+** 方式一：使用向导删除数据表 **
 
 1\. 进入USQL界面后，选择数据表右边的‘…’再选择‘删除表’ ![](/analysis/usql/删除表.png)
 
 2\. 点击 ‘删除’
 
-\*\* 方式二：使用DDL语句删除数据表 \*\*
+** 方式二：使用DDL语句删除数据表 **
 
 1\. 在查询框中输入
 

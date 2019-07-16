@@ -57,8 +57,7 @@
 
 在查询框根据需要，输入SQL语句进行查询，示例：
 
-``` 
-       select * from client_details
+```    select * from client_details
        where city='Beijing'
 ```
 

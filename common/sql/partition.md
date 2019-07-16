@@ -42,7 +42,8 @@
     PARTITION (year = 2019, month = 04, day = 16)
     PARTITION (year = 2019, month = 04, day = 15)
 
-**查看分区** **语法**
+**查看分区** 
+语法
 
     SHOW PARTITIONS table_name
 

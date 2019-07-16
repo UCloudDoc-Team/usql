@@ -2,9 +2,9 @@
 
 # SELECT
 
-**描述：**基本的查询语句，返回查询结果
+**描述**：基本的查询语句，返回查询结果
 
-**语法：**
+**语法**：
 
     SELECT [ALL | DISTINCT] attr_expr_list FROM table_reference 
     [WHERE where_condition] 
@@ -14,7 +14,7 @@
     [SORT BY col_name_list]] 
     [LIMIT number]
 
-**关键字：**
+**关键字**：
 
 ALL：为默认选项；返回结果包含重复行，其后必须为\*。
 

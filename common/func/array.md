@@ -18,11 +18,11 @@
 
 **数组函数**
 
-array\_distinct（x ）-\> x：去重：删除数组x中重复元素。
+array\_distinct（x ）→ x：去重：删除数组x中重复元素。
 
-Array\_intersect(x,y) -\>(x,y)：返回X，y中的交集数据，并去重。
+Array\_intersect(x,y) → (x,y)：返回X，y中的交集数据，并去重。
 
-Array\_union(x,y) -\>(x,y)：返回X，y中的并集数据，并去重。
+Array\_union(x,y) → (x,y)：返回X，y中的并集数据，并去重。
 
 array\_except(x, y) → (x,y)：从x数组中去除y数组中的元素，并返回新数组。
 
@@ -49,7 +49,7 @@ array：连锁array1-arrayN，与SQL的标准操作||有相同效果。
 
 contains(x, element) → Boolean：如果数组x含有element则返回true。
 
-element\_at(array\<E\>, index) → E：返回数组中在index位置的元素（index\>=0）。
+element\_at(array <E\>, index) → E：返回数组中在index位置的元素（index\>=0）。
 
 filter(array, function) → array：使用function在array内构建数组。
 
@@ -58,13 +58,13 @@ flatten(x) → array：把array（array（T））链接成arrat（T）。
 reverse(x) → array：反转数组排列顺序。
 
 sequence(start, stop) →
-array\<bigint\>：从start到stop生成整数序列，如果start\<stop，按照1递增，反之按照1递减。
+array<bigint\>：从start到stop生成整数序列，如果start\<stop，按照1递增，反之按照1递减。
 
 sequence(start, stop, step) →
-array\<bigint\>：从start到stop按照step规律递增生成整数序列。
+array<bigint\>：从start到stop按照step规律递增生成整数序列。
 
 sequence(start, stop, step) →
-array\<timestamp\>：从start到stop按照step规律递增生成时间戳序列，step范围：年月日时分秒。
+array<timestamp\>：从start到stop按照step规律递增生成时间戳序列，step范围：年月日时分秒。
 
 shuffle(x) → array：随机排序数组。
 
@@ -72,7 +72,7 @@ slice(x, start, length) → array：在数组x中选出以start开始，长度�
 
 transform(array, function) → array：数组array中的所有元素按照function运算，并返回新数组。
 
-zip(array1, array2\[, ...\]) → array\<row\>：合并多个数组至一个数组。
+zip(array1, array2\[, ...\]) → array<row\>：合并多个数组至一个数组。
 
 zip\_with(array1, array2, function) →
 array：使用函数function合并数组1、数组2，数组1、2需要有相同长度。

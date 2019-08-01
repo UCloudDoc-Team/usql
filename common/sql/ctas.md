@@ -8,7 +8,7 @@
 
     CREATE TABLE new_table_name
     ROW FORMAT SERDE 'SERDE type'
-    LOCATION 'UFLIE://......'
+    LOCATION 'ufile://......'
        AS  
     SELECT *
     FROM original_table_name

@@ -16,9 +16,9 @@
 **支持的SERDE**：
 
 ``` 
- SUPPORT_SERDE_JOSN_OPENX("org.openx.data.jsonserde.JsonSerDe"),
- SUPPORT_SERDE_JOSN_HIVE("org.apache.hive.hcatalog.data.JsonSerDe"),
- SUPPORT_SERDE_ORC_HIVE("org.apache.hadoop.hive.ql.io.orc.OrcSerde"),
- SUPPORT_SERDE_TSV_LAZY("org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe"),
- SUPPORT_SERDE_CSV_OPEN("org.apache.hadoop.hive.serde2.OpenCSVSerde");
+ JOSN_OPENX SERDE："org.openx.data.jsonserde.JsonSerDe"
+ JOSN_HIVE SERDE："org.apache.hive.hcatalog.data.JsonSerDe"
+ ORC_HIVE SERDE："org.apache.hadoop.hive.ql.io.orc.OrcSerde"
+ TSV_LAZY SERDE："org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe"
+ CSV_OPEN SERDE："org.apache.hadoop.hive.serde2.OpenCSVSerde"
 ```

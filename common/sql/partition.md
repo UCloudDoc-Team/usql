@@ -9,7 +9,7 @@
     CREATE EXTERNAL TABLE table_name (col_name data_type, col_name data_type,... )
       PARTITIONED BY (date_name data_type,date_name data_type,...)
       STORED AS TEXTFILE
-      LOCATION 'UFile://...';
+      LOCATION 'ufile://...';
 
 示例
 
@@ -21,7 +21,7 @@
     )
     PARTITIONED BY(year int, month int, day int)
     STORED AS TEXTFILE
-    LOCATION 'UFile://...';
+    LOCATION 'ufile://...';
 
 **添加分区**
 

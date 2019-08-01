@@ -30,7 +30,7 @@ CREATE [EXTERNAL] TABLE [IF NOT EXISTS]
 PARTATION BY [col_name data_type] 
 [ROW FORMAT row_format] 
 [STORED AS file_format] 
-[LOCATION 'UFile:']
+[LOCATION 'ufile:']
 [TBLPROPERTIES ( ['has_encrypted_data'='true | false',]
 ['classification'='aws_glue_classification',] property_name=property_value [, ...] ) ] 
 ```

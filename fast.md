@@ -1,8 +1,8 @@
-{{indexmenu_n>1}}
+
 
 # 快速入门
 
-{{indexmenu_n>2}}
+
 
 ## 1 注册UCloud账户
 

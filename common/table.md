@@ -1,11 +1,11 @@
 
 
-======= 数据表 =======
+# 数据表
 
 ## 创建数据表
 
 准备工作：用户将CSV、ORC、JSON类型的文件上传到Ufile中，上传说明详见
-[UFile-操作指南-上传文件](/storage_cdn/ufile/guide/put)
+[UFile-操作指南-上传文件](/storage_cdn/ufile/quick/quick_start)
 
 **方式一：使用向导创建数据表**
 

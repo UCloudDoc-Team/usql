@@ -2,4 +2,4 @@
 
 
 
-API文档请参考  https://docs.ucloud.cn/api/usql-api/index
+API文档参见  https://docs.ucloud.cn/api/usql-api/index

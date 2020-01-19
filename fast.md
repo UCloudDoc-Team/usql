@@ -6,7 +6,7 @@
 
 ## 1 注册UCloud账户
 
-如果已注册了UCloud账户，则可以立即开始使用USQL。如果尚未注册，请参见 [账号注册](/account/register/register_flow)。
+如果已注册了UCloud账户，则可以立即开始使用USQL。如果尚未注册，请参见 [账号注册](/account/register/register_flow)
 
 注册UCloud时，账户会自动注册UCloud中的所有服务，包括USQL。用户只需为使用的服务付费，USQL会使用UFile来存储数据。
 

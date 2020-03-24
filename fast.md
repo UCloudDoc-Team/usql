@@ -6,7 +6,7 @@
 
 ## 1 注册UCloud账户
 
-如果已注册了UCloud账户，则可以立即开始使用USQL。如果尚未注册，请参见 [账号注册](/account/register/register_flow)。
+如果已注册了UCloud账户，则可以立即开始使用USQL。如果尚未注册，请参见 [账号注册](register/register_flow)。
 
 注册UCloud时，账户会自动注册UCloud中的所有服务，包括USQL。用户只需为使用的服务付费，USQL会使用UFile来存储数据。
 
@@ -30,7 +30,7 @@
 1、选择UFile标签可以跳转到UFile操作界面，在此操作界面进行数据上传。
 
 2、将数据文件上传到UFile，目前USQL支持CSV格式文件。具体文件上传步骤请参考
-[UFile-快速上手](/storage_cdn/ufile/quick/quick_start)。
+[UFile-快速上手](/ufile/quick/quick_start)。
 
 ![](/images/文件上传.png)
 

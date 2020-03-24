@@ -5,7 +5,7 @@
 ## 创建数据表
 
 准备工作：用户将CSV、ORC、JSON类型的文件上传到Ufile中，上传说明详见
-[UFile-操作指南-上传文件](/storage_cdn/ufile/quick/quick_start)
+[UFile-操作指南-上传文件](/ufile/quick/quick_start)
 
 **方式一：使用向导创建数据表**
 
@@ -73,7 +73,7 @@ USQL目前支持两种预览数据表的方式： 使用向导查看或通过SQL
 
 ## 查询数据表
 
-使用SQL语句及函数查询数据表，详见 [SQL语句](/analysis/usql/common/sql/statement)
+使用SQL语句及函数查询数据表，详见 [SQL语句](usql/common/sql/statement)
 
 ## 保存查询
 

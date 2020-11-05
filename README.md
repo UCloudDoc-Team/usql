@@ -25,4 +25,3 @@
         * [逻辑运算符](/usql/common/func/logic)
 * [产品价格](/usql/price)
 * [API文档](/usql/api)
-

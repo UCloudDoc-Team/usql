@@ -1,4 +1,3 @@
-<div class="sidebar_title icon__usql"> 数据湖分析 USQL</div>
 
 * [概览](/usql/README)
 * 产品简介

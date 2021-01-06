@@ -2,7 +2,7 @@
 
 
 * 产品简介
-    * [什么是数据湖分析](/usql/intro/about)
+    * [什么是数据湖分析。](/usql/intro/about)
     * [产品优势](/usql/intro/advantages)
     * [应用场景](/usql/intro/confine)
     * [使用限制](/usql/intro/use)
